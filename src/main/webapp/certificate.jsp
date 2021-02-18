@@ -1,11 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<<<<<<< HEAD
 <%@ page import="com.vac.model.*"%>
-=======
-<%@ page import="com.webAppProject.model.*"%>
->>>>>>> a33bf6ebc3551cebf0358239de9a8c5b48c9927a
 <!DOCTYPE html>
 <html>
 <head>

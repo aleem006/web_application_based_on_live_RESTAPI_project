@@ -62,12 +62,6 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!-- Servlet API -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>${servlet.version}</version>
-		</dependency>
 		<!-- MySQL database driver -->
 		<dependency>
 			<groupId>mysql</groupId>
