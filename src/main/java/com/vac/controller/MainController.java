@@ -27,12 +27,9 @@ import com.vac.model.Vessel;
 public class MainController {
 
 	public static ArrayList<Vessel> vesselList = new ArrayList<Vessel>();
-<<<<<<< HEAD
 	
 	//Main Page
-=======
 
->>>>>>> a33bf6ebc3551cebf0358239de9a8c5b48c9927a
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView main(HttpServletRequest request, HttpServletResponse response)
 			throws JSONException, IOException {
@@ -43,10 +40,7 @@ public class MainController {
 		return mav;
 	}
 
-<<<<<<< HEAD
 	//opens the viewCertificate page
-=======
->>>>>>> a33bf6ebc3551cebf0358239de9a8c5b48c9927a
 	@RequestMapping(value = "/viewCertificate", method = RequestMethod.GET)
 	public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
 		ModelAndView mav = new ModelAndView("certificate");
@@ -73,10 +67,8 @@ public class MainController {
 		return mav;
 	}
 
-<<<<<<< HEAD
+
 	//Readall method just fetches the stream of letters and generating string using string builder
-=======
->>>>>>> a33bf6ebc3551cebf0358239de9a8c5b48c9927a
 	private static String readAll(Reader rd) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
@@ -86,10 +78,8 @@ public class MainController {
 		return sb.toString();
 	}
 
-<<<<<<< HEAD
+
 	//hits the url, and parses json
-=======
->>>>>>> a33bf6ebc3551cebf0358239de9a8c5b48c9927a
 	public static ArrayList<Vessel> readJsonFromUrl(String url) throws IOException, JSONException {
 		InputStream is = new URL(url).openStream();
 		try {
